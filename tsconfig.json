@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/constants": ["src/common/constants"],
+      "@/data": ["src/common/data"],
+      "@/definitions": ["src/common/definitions"],
+      "@/fixtures": ["src/common/fixtures"],
+      "@/page-objects/*": ["src/common/page-objects/*"],
+      "@/utils": ["src/common/utils"],
+      "@/specs/*": ["src/specs/*"]
+    }
+  }
+}

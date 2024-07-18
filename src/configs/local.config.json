@@ -1,0 +1,21 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "users": {
+    "admin": {
+      "email": "admin@am.com",
+      "password": "Tester123!"
+    },
+    "billing": {
+      "email": "testuser6@gmail.com",
+      "password": "Password123!"
+    },
+    "compliance": {
+      "email": "testuser7@gmail.com",
+      "password": "Tester123!"
+    },
+    "general-user": {
+      "email": "jcena@notgmail.com",
+      "password": "Tester123!"
+    }
+  }
+}

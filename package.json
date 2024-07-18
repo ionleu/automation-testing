@@ -1,0 +1,59 @@
+{
+  "name": "automation-testing",
+  "version": "1.0.0",
+  "description": "MANGA: Automation testing",
+  "contributors": [
+    {
+      "name": "Ion Leu",
+      "email": "ion.leu@medicalsolutions.com"
+    }
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "cmd:prod": "cross-env ENV=prod npx playwright test",
+    "ui:prod": "cross-env ENV=prod npx playwright test --ui",
+    "cmd:uat": "cross-env ENV=uat npx playwright test",
+    "ui:uat": "cross-env ENV=uat npx playwright test --ui",
+    "cmd:local": "cross-env ENV=local npx playwright test",
+    "ui:local": "cross-env ENV=local npx playwright test --ui",
+    "cmd:qa": "cross-env ENV=qa npx playwright test",
+    "ui:qa": "cross-env ENV=qa npx playwright test --ui",
+    "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+    "prettier": "prettier --write 'src/**/*'",
+    "lint:prettier": "npm run lint && npm run prettier"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.35.1",
+    "@types/node": "^20.14.8",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard-with-typescript": "^36.1.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": [
+      "prettier --write --ignore-unknown",
+      "eslint --fix"
+    ]
+  }
+}
