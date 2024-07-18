@@ -1,4 +1,4 @@
-# Affiliate Automation Wiki
+# Automation Testing Wiki
 
 ### Table of content
 

@@ -33,7 +33,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [Affiliate Portal Chat](https://teams.microsoft.com/l/channel/19%3a7e9f81163e3e49dcb75f92478c547fa7%40thread.tacv2/Affiliate%2520Portal?groupId=7fd7b54a-9d60-49d6-be61-0e20ccc47701&tenantId=25141f81-e52d-4bbc-b4c6-5ad17717b3e8). The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [Automation Testing Chat](#). The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 

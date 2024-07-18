@@ -1,4 +1,4 @@
-# Affiliate Automation Contributing Guide
+# Automation Testing Contributing Guide
 
 Before submitting your contribution, be sure to take a moment and read the following guidelines.
 
@@ -15,9 +15,9 @@ Before submitting your contribution, be sure to take a moment and read the follo
 
 ## Becoming a Contributor
 
-If you are interested to contribute to Affiliate Automation project, start by
+If you are interested to contribute to Automation Testing project, start by
 reviewing pull requests. Suggest us your favorite best practices and standards that can improve our project. Your can join our small team by requesting to join the Automation team in the
-[Affiliate Portal](https://teams.microsoft.com/l/channel/19%3a7e9f81163e3e49dcb75f92478c547fa7%40thread.tacv2/Affiliate%2520Portal?groupId=7fd7b54a-9d60-49d6-be61-0e20ccc47701&tenantId=25141f81-e52d-4bbc-b4c6-5ad17717b3e8) chat or we will reach out and ask you if you want to join or you can ask one of the current maintainers to add you.
+[Automation Testing](#) chat or we will reach out and ask you if you want to join or you can ask one of the current maintainers to add you.
 
 Being a contributor is not an obligation. You can help when you have time and be
 less active when you don't, being busy with your projects tasks.
@@ -42,7 +42,7 @@ In order to maintain the [Atomic Design](https://atomicdesign.bradfrost.com/chap
 ## Development Setup
 
 1. Clone the repo on your local machine;
-2. Inside **AffiliateAutomation** folder run `npm i` command to install all dependencies;
+2. Inside **automation-testing** folder run `npm i` command to install all dependencies;
 3. In same folder run `npx playwright install` command to install Chromium, Firefox and Webkit browsers;
 4. To check if everything is working, run `npm run open:qa` command in terminal to open the Playwright UI using QA environment.
 
